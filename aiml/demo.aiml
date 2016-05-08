@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <category><pattern>CAN YOU HELP ME</pattern>
+    <template>Of course. I am here to help you.</template>
+  </category>
+  
+  <category><pattern>I AM TIRED WHAT SHOULD I DO</pattern>
+    <template>Try to take a sort nap.</template>
+  </category>
+  
+  <category><pattern>WILL DO NOW</pattern>
+    <template>Let me know how it goes.</template>
+  </category>
+  
+  <category><pattern>IT DID NOT HELP MUCH</pattern>
+    <template>Maybe it is more complicated than I thought. Do you want to connect to your doctor?</template>
+  </category>
+  
+  <category><pattern>$YES</pattern>
+    <that>DO YOU WANT TO CONNECT TO YOUR DOCTOR</that>
+    <template>Done! Your doctor is notified and will contact you now.</template>
+  </category>
+
+</aiml>
